@@ -1,0 +1,75 @@
+/* styles for the homepage */
+
+/* set font size */
+body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  /* set color */
+  body {
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #555;
+  }
+  
+  /* set background */
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    background-color: #fff;
+  }
+  
+  /* set line-height */
+  body {
+    line-height: 1.5;
+  }
+  
+  /* set letter-spacing */
+  h1, h2 {
+    letter-spacing: 0.1rem;
+  }
+  
+  /* use grid for layout */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  /* use flex for button */
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* use border */
+  .container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* adjust padding and margin */
+  .container {
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+  }
+  
+  
