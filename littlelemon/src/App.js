@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import BookingPage from './pages/BookingPage';
+import Main from './pages/Main';
 import './styles.css';
 
 function App() {
@@ -25,5 +26,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
